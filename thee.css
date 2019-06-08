@@ -71,6 +71,28 @@
 .clear {
  clear:both; 
 }
+.left-half-third {
+    width: 50% !important;
+    height: 100% !important;
+    float: left !important;
+  	background-color:rgba(255,255,255,0.21) !important;
+  	display:table;
+}
+.left-third-child {
+ 	display:table-cell;
+  	vertical-align:middle;
+}
+.left-third-child > p {
+ 	text-align:right;
+ 	color:#000 !important;
+  	margin-right: 50px;
+}
+.right-half-third {
+    float: right;
+    height: 100% !important;
+    width: 50%;
+  	display:table;
+}
 .main-content-alternate {
  padding-top: 0px !important; 
 }
