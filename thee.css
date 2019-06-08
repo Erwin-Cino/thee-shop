@@ -1,0 +1,68 @@
+.grid__item-alternate {
+ width:100%; 
+}
+.container {
+		background: url('//cdn.shopify.com/s/files/1/0103/8814/4224/files/1st_section_green_flower.jpg?v=1559980345');
+		height:100vh !important;
+		width:100% !important;
+		background-size:cover;
+}
+.container-second {
+		background: url('//cdn.shopify.com/s/files/1/0103/8814/4224/files/1st_section_green_flower.jpg?v=1559980345');
+		height:100vh !important;
+		width:100% !important;
+		background-size:cover;
+}
+.page-width-alternate {
+		width:100% !important;
+}
+.left-half {
+    width: 50% !important;
+    height: 100% !important;
+    float: left !important;
+  	background-color:rgba(255,255,255,0.21) !important;
+  	display:table;
+}
+.left-child {
+ 	display:table-cell;
+  	vertical-align:middle;
+}
+.left-child > p {
+ 	text-align:right;
+ 	color:#fff !important;
+  	margin-right: 50px;
+}
+.right-half {
+    float: right;
+    height: 100% !important;
+    width: 50%;
+  	display:table;
+}
+.left-child-second {
+ 	display:table-cell;
+  	vertical-align:middle;
+  	background-color:rgba(255,255,255,0.21) !important;
+}
+.right-half-second {
+    float: right;
+    height: 100% !important;
+    width: 50%;
+  	display:table;
+}
+.right-half-second-child {
+ 	display:table-cell;
+  	vertical-align:middle; 
+}
+.right-half-second-child > p {
+  margin-left:50px;
+  color:#fff !important;
+}
+.clear {
+ clear:both; 
+}
+.main-content-alternate {
+ padding-top: 0px !important; 
+}
+.section-header {
+    margin-bottom: 0px !important;
+}
