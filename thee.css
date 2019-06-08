@@ -8,8 +8,14 @@
 		background-size:cover;
 }
 .container-second {
-		background: url('//cdn.shopify.com/s/files/1/0103/8814/4224/files/1st_section_green_flower.jpg?v=1559980345');
+		background: url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/second_section_background.jpg?260');
 		height:100vh !important;
+		width:100% !important;
+		background-size:cover;
+}
+.container-third {
+  		background:url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/third_section.jpg?270');
+  		height:100vh !important;
 		width:100% !important;
 		background-size:cover;
 }
@@ -38,10 +44,15 @@
     width: 50%;
   	display:table;
 }
+.left-half-second {
+  	width: 50% !important;
+    height: 100% !important;
+    float: left !important;
+  	background-color:rgba(255,255,255,0.21) !important;
+}
 .left-child-second {
  	display:table-cell;
   	vertical-align:middle;
-  	background-color:rgba(255,255,255,0.21) !important;
 }
 .right-half-second {
     float: right;
