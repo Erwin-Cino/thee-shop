@@ -1,4 +1,3 @@
-/* new home page */
 .grid__item-alternate {
  width:100%; 
 }
@@ -109,6 +108,7 @@
  background-size:cover;
  display:table;
  width:100%;
+ margin-bottom:100px;
 }
 .fourth-content {
   margin:0 auto;
@@ -123,4 +123,51 @@ img.leaf {
 }
 .header {
  color:#242b4f; 
+}
+.line {
+ border-bottom:5px solid #fff !important;
+ width:170px;
+ margin:0 auto;
+}
+.thee {
+ max-width:150px !important;
+ margin-top:50px;
+}
+.bordered-container {
+ background-color:#e6e6e6;
+ padding:70px;
+}
+.bc-child {
+ border:5px #fff solid;
+ padding:30px;
+ height:100% !important;
+}
+.v-text {
+  writing-mode: vertical-rl;
+}
+.half-wd {
+ background:url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/woodendesign.jpg?667');
+ height:100%;
+ width:35%;
+}
+.flex-grid-thirds {
+  display:flex;
+}
+.flex-grid .col-1 .col-2 .col-3 .col-4 {
+ flex:1; 
+}
+.col-1 {
+ width:15%; 
+}
+.col-4 {
+ width:15%;
+}
+.col-2 {
+ width:35%; 
+}
+.col-3 {
+ width:35%; 
+}
+.right {
+ float:right;
 }
