@@ -1,3 +1,4 @@
+/* new home page */
 .grid__item-alternate {
  width:100%; 
 }
@@ -101,4 +102,25 @@
 }
 .section-header {
     margin-bottom: 0px !important;
+}
+.fourth {
+ height:100vh;
+ background: url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/fourth_section.jpg?392');
+ background-size:cover;
+ display:table;
+ width:100%;
+}
+.fourth-content {
+  margin:0 auto;
+  display:table-cell;
+  vertical-align:middle;
+}
+img.leaf {
+    max-width: 30px;
+}
+.center {
+ text-align:center; 
+}
+.header {
+ color:#242b4f; 
 }
