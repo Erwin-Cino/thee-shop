@@ -139,8 +139,8 @@ img.leaf {
 }
 .bc-child {
  border:5px #fff solid;
+ height:120vh !important;
  padding:30px;
- height:100% !important;
 }
 .v-text {
   writing-mode: vertical-rl;
@@ -148,26 +148,52 @@ img.leaf {
 .half-wd {
  background:url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/woodendesign.jpg?667');
  height:100%;
- width:35%;
+ background-size:cover;
+ background-repeat: no-repeat;
 }
 .flex-grid-thirds {
   display:flex;
+  height:75%;
+  align-items:center;
 }
-.flex-grid .col-1 .col-2 .col-3 .col-4 {
- flex:1; 
+.flex-grid-thirds .col-1 .col-2 .col-3 .col-4 {
+ flex:1;
 }
 .col-1 {
- width:15%; 
+ width:20%; 
 }
 .col-4 {
- width:15%;
+ width:20%;
 }
 .col-2 {
- width:35%; 
+ width:30%; 
 }
 .col-3 {
- width:35%; 
+ width:30%;
+ background-color:#dbcba7;
+ height:100%;
+ background-size:cover;
+ background-repeat: no-repeat;
+ padding:50px;
+ display:flex;
+ align-items:center;
 }
 .right {
  float:right;
+}
+.thee-image {
+ margin-bottom:100px; 
+}
+.unexpected {
+ color:#fff !Important;
+ margin-left:55%;
+ margin-top:10%;
+}
+.margintop {
+ margin-top:50px;
+}
+.line-fs {
+  border-bottom:5px solid #fff !important;
+  margin-left:-100px;
+  width:100px;
 }
