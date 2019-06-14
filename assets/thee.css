@@ -197,3 +197,206 @@ img.leaf {
   margin-left:-100px;
   width:100px;
 }
+.header-alternate-one {
+    background-color: #e6e6e6 !important;
+}
+.header-alternate-two {
+    background-color: #e6e6e6 !important;
+}
+.container-fifth {
+  padding:50px;
+  min-height:150vh;
+}
+.bordered-black {
+  border:1px #545453 solid;
+  height:100%;
+}
+.header-margin {
+    margin-top: 50px;
+}
+.turtles {
+ display:inline;
+}
+.text-inline {
+ display:inline;
+ padding:0px 20px 0px 20px;
+ z-index:40;
+}
+.gone {
+  opacity:0;
+}
+.turtle-flex {
+ display:flex;
+ align-items:center;
+}
+.gray-box {
+ width:1000px;
+ height:500px;
+ background-color:#e6e6e6;
+ position:absolute;
+ margin-top:-40px;
+}
+.turtle-image {
+ z-index:100; 
+}
+.third-flex {
+ display:flex;
+ margin-top:10%;
+}
+.text-flex .column-one {
+ flex:1; 
+}
+.text-flex {
+  width:23%;
+}
+.text-flex > p {
+    margin-bottom: 50px;
+    color:#242b4f !important;
+}
+.column-one {
+ width:13%;
+}
+.cream-square {
+    width: 15%;
+    height: 400px;
+    background: #f9e5a7;
+    display: flex;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -400px;
+}
+.column-two {
+ width:13%; 
+}
+.sixth-flex {
+ display:flex;
+ padding-left:60px;
+ padding-right:60px;
+ margin-top:20%;
+
+}
+.sixth-flex .six-one .six-two .six-three .six-four .six-five {
+  flex:1;
+}
+.six-one {
+ margin-right:20px;
+ margin-left:20px;
+}
+.six-two {
+ margin-right:20px;
+ margin-left:20px;
+}
+.six-three {
+ margin-right:20px;
+ margin-left:20px;
+}
+.six-four {
+ margin-right:20px;
+ margin-left:20px;
+}
+.six-five {
+ margin-right:20px;
+ margin-left:20px;
+}
+.uji-text {
+ margin-top:10%;
+ text-align:center;
+ color:#242b4f;
+}
+.uji-p {
+ margin-top:20px;
+ text-align:center;
+ color:#242b4f !important;
+}
+.uji {
+ margin-bottom:20%; 
+}
+.container-seven {
+ min-height:100vh;
+ display:flex;
+}
+.container-seven .green-strip .seven-two .seven-three .seven-four {
+ flex:1; 
+}
+.green-strip-div {
+ width:20%;
+ background: url('https://cdn.shopify.com/s/files/1/0103/8814/4224/files/seventh_section_about_header.png?1950');
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+.seven-two {
+ width:40%;
+ padding-left:5%;
+}
+.seven-three {
+ width:30%; 
+}
+.seven-four {
+ width:10%; 
+}
+img.thee-logo {
+  width: 150px;
+  z-index:12;
+  margin-left: 25%;
+  margin-top:15%;
+}
+.right {
+ float:right;
+ margin-top:50%; 
+}
+.tea-pot {
+ width:150px; 
+}
+hr.seven-line {
+    width: 100px;
+    border-bottom: 1px #000 solid !important;
+    margin: 0px;
+}
+.text-line > p {
+ color:#242b4f !important;
+}
+.grand-p {
+ color:#242b4f !important;
+ text-align:center;
+}
+span.taste {
+    margin-right: 50px;
+}
+span.ingredients {
+    margin-left: 50px;
+  text-decoration:underline;
+}
+.seven-two-child {
+ margin-top: 35%; 
+}
+.seven-grand {
+    margin-top: 15%;
+    min-width: 300px;
+    min-height: 500px;
+    background-color: #e8f1d4;
+    padding:50px;
+}
+.product-size {
+ width:250px; 
+}
+.products-div {
+    margin-top: 120%;
+}
+.second-product {
+ margin-top:10%; 
+}
+.prod-desc {
+ color:#242b4f !important;
+ text-align:center;
+ margin-top:50px;
+}
+.highlight {
+ background-color:#e9d2d5;
+}
+.prod-price {
+  color:#242b4f !important;
+  text-align:center;
+}
+.text-color {
+  color:#242b4f !important;
+}
