@@ -55,7 +55,7 @@
 <div class="bordered-container">
   <div class="bc-child">
     <div class="thee-image">
-      {% section 'custom-header' %}
+      {% section 'second-header' %}
     </div>
     <div class="flex-grid-thirds">
       <div class="col-1">
@@ -66,7 +66,7 @@
       </div>
       <div class="col-3">
         <hr class="line-fs">
-        <p class="unexpected right">unexpected<br/>pairings</p>
+        <p class="unexpected right">unexpected<br/><span class="pairing">pairings</span></p>
       </div>
       <div class="col-4">
         <p class="v-text right left-vertical"><mark class="highlight">contact</mark></p>
@@ -164,11 +164,31 @@
         <p class="grand-p"><mark class="highlight"><span class="taste">TASTE</span> <span class="ingredients">INGREDIENTS</span></mark></p>
         <p class="prod-desc"><mark class="highlight">japanese green tea<br/>roasted over charcoal</mark></p>
         <h1 class="prod-price"><mark class="highlight"><span class="smaller text-color">$</span><span class="text-color">29.</span><span class="smaller text-color">80</span></mark></h1>
-        <a href="#">
-          <div class="button">
-            <h2 class="center"><span class="text-color"><mark class="highlight">BUY NOW</mark></span></h2>
-          </div>
-        </a>
+        <form method="post" action="/cart/add" id="product_form_2185080438880" accept-charset="UTF-8" class="no-width product-form product-form-product-template product-form--payment-button-no-variants
+" enctype="multipart/form-data" novalidate="novalidate" data-product-form="" data-product-form-redirect-url="/cart">
+<input type="hidden" name="form_type" value="product">
+<input type="hidden" name="utf8" value="✓">
+          
+          
+            <select name="id" id="ProductSelect-product-template" class="product-form__variants no-js">
+              
+                
+                  <option selected="selected" value="19666300534880">
+                    Default Title
+                  </option>
+              
+              
+            </select>
+        
+        <button type="submit" name="add" class="button" data-add-to-cart="">
+                <span data-add-to-cart-text="">
+                  
+                    <h2 class="center no-margin"><span class="text-color"><mark class="highlight">BUY NOW</mark></span></h2>
+                  
+                </span>
+              </button>
+        
+        </form>
       </div>  
     </div>
   </div>
