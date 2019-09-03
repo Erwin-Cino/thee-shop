@@ -1,0 +1,9 @@
+
+
+{% section 'default-product' %}
+
+<div class="custom-price-div">
+                    <div class="product__price">
+                      {% include 'product-custom-price', variant: current_variant %}
+                    </div>
+              </div>

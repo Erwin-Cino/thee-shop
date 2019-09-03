@@ -1,0 +1,63 @@
+<div class="container-seven">
+  <div class="green-strip-div">
+    <img class="thee-logo" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/thee_website_template_path.png?1804" />
+  </div>
+  <div class="seven-two">
+    <div class="seven-two-child">
+      <img class="tea-pot" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/teapot.png?1950" />
+      <h1 class="text-color">Uji, Hoji</h1>
+      <div class="text-line">
+          <hr class="seven-line">
+          <p>Golden Roast, Unpretentious,</p>
+          <p>Naturally roasted with a whiff of woodiness slowly easing<br/>
+            into a sleepy sweet aroma.
+          </p>
+        <a name="shopnow"></a>
+      </div>
+      <div class="seven-grand">
+        <p class="grand-p"><span class="taste">TASTE</span> <span class="ingredients">INGREDIENTS</span></p>
+        <p class="prod-desc">japanese green tea<br/>roasted over charcoal</p>
+        <h1 class="prod-price"><span class="smaller text-color">$</span><span class="text-color bigger-text">29.</span><span class="smaller text-color">80</span></h1>
+      	<div class="form-div">
+          <form method="post" action="/cart/add" id="product_form_2185080438880" accept-charset="UTF-8" class="no-width product-form product-form-product-template product-form--payment-button-no-variants
+          " enctype="multipart/form-data" novalidate="novalidate" data-product-form="" data-product-form-redirect-url="/cart">
+          <input type="hidden" name="form_type" value="product">
+          <input type="hidden" name="utf8" value="✓">
+          
+          
+            <select name="id" id="ProductSelect-product-template" class="product-form__variants no-js">
+              
+                
+                  <option selected="selected" value="19666300534880">
+                    Default Title
+                  </option>
+              
+              
+            </select>
+        
+        		<button type="submit" name="add" class="button" data-add-to-cart="">
+                	<span data-add-to-cart-text="">
+                  
+                    <h2 class="center no-margin"><span class="buy-now">BUY NOW</span></h2>
+                  
+                	</span>
+              	</button>
+        
+        </form>
+        </div>
+      </div>	
+    </div>
+  </div>
+  <div class="seven-three">
+    <p class="right">ALL PRODUCTS<hr class="underline-text"></p>
+    <div class="products-div">
+    	<img class="product-size" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/first_product.png?2143" />
+    	<img class="product-size second-product" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/product_the_second.png?2143" />
+    </div>
+  </div>
+  <div class="seven-four">
+    <hr class="small-line">
+    <p class="seven-rotate">brewing techniques</p>
+    <div class="rectangular"></div>
+  </div>
+</div>
