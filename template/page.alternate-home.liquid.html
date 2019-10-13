@@ -11,3 +11,25 @@
     </div>
   </div>
 </div>
+
+jQuery("#yearly-sub").click(
+	function() {
+		jQuery(".pms-subscription-plan-1874 input").attr("checked","checked");           
+	}
+     
+);
+jQuery("#yelp-help").click(
+     function() {
+         jQuery(".pms-subscription-plan-1850 input").attr("checked","checked");
+     }
+);
+jQuery("#monthly-plan").click(
+     function() {
+         jQuery(".pms-subscription-plan-1825 input").attr("checked","checked");
+     }
+);
+ $(document).ready(function() {
+          $("div").click(function() {
+            alert("Hello, world!");
+          });
+        });

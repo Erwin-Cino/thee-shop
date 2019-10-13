@@ -1,60 +1,364 @@
-{% layout 'theme.alternate-thee' %}
+{% layout 'theme.alternate-thee' %} 
+<!-- Start of Desktop View -->
+<div class="loading-screen">
+  <div class="stem-one"></div>
+  <div class="stem-two"></div>
+  <div class="stem-three"></div>
+  <div class="stem-four"></div>
+</div>
+<div class="main-wrapper">
 <div class="container">
-	<div class="left-half">
-		<div class="left-child">
-			<p>We live with mysteries,<br />too marvellous,<br />to be understood.</p>
-		</div>
-	</div>
+  <div class="left-half">
+    <div class="left-child">
+      <p>We live with mysteries,<br />too marvellous,<br />to be understood.</p>
+    </div>
+  </div>
 <div class="right-half"></div>
 <div class="clear"></div>
 </div>
 <div class="container-second">
-	<div class="left-half-second">
-	</div>
-	<div class="right-half-second">
-  		<div class="right-half-second-child">
-			<p>if you are a season,<br />let it be the one I passed,<br />through to get here.</p>
-		</div>
-  	</div>
+  <div class="left-half-second">
+  </div>
+  <div class="right-half-second">
+      <div class="right-half-second-child">
+      <p>if you are a season,<br />let it be the one I passed,<br />through to get here.</p>
+    </div>
+    </div>
 <div class="clear"></div>
 </div>
 <div class="container-third">
-	<div class="left-half-third">
+  <div class="left-half-third">
       <div class="left-third-child">
-			<p>For what is worth,<br/>I found THEE</p>
-		</div>
-	</div>
-	<div class="right-half-third">	
-  	</div>
+      <p>For what is worth,<br/>I found THEE</p>
+    </div>
+  </div>
+  <div class="right-half-third">  
+    </div>
 <div class="clear"></div>
 </div>
+
+<!-- start of fourth section -->
 <div class="fourth">
   <div class="fourth-content">
     <p class="center">
-    	<img class="leaf" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/flower_lines.png?392" />
+      <img class="leaf" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/flower_lines.png?392" />
     </p>
     <h3 class="center header">begin again</h3>
     <hr class="line">
     <p class="center">
-    	<img class="thee" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/thee_website_template_path.png?392" />
+      <img class="thee" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/thee_website_template_path.png?392" />
     </p>
   </div>
 </div>
-{% section 'custom-header' %}
-
+<!-- start of fifth contact our story shop now section -->
 <div class="bordered-container">
-  <div class="bc-child flex-grid-thirds">
-    <div class="col-1">
-    	<p class="v-text">our story</p>
-  	</div>
-    <div class="half-wd col-2">
-      <p class="v-text">our story</p>
+  <div class="bc-child">
+    <div class="thee-image">
+      <div class="desk-header">
+        {% section 'fourth-header' %}
+      </div>
+      <div class="mobile-header">
+        {% section 'header' %}
+      </div>
     </div>
-    <div class="col-3">
-      <p class="v-text">our story</p>
+    <div class="flex-grid-thirds">
+      <div class="col-1">
+        <a class="v-text" href="#ourstory">our story</a>
+      </div>
+      <div class="half-wd col-2">
+        
+      </div>
+      <div class="col-3">
+        <hr class="line-fs">
+        <p class="unexpected right">unexpected<br/><span class="pairing">pairings</span></p> 
+      </div>
+      <div class="col-4">
+        <a href="#contact-section" class="v-text left-vertical">contact</a>
+      </div>
+     </div> 
+   </div>
+</div>
+  <div class="shop-div">
+    <p class="shop-text">
+      <a class="letter-spacing shop-now" href="#shopnow">shop now</a>
+    </p>
+  </div>
+  
+  <div style="margin-top:50px;"></div>
+<!-- 100vh menu section -->  
+<div class="vh-bordered-container">
+  <div class="vh-bc-child">
+    <div class="vh-thee-image">
+      <div class="vh-desk-header">
+        {% section 'vh-fourth-header' %}
+      </div>
+      <div class="mobile-header">
+        {% section 'header' %}
+      </div>
     </div>
-    <div class="col-4">
-      <p class="v-text right">our story</p>
-    </div>
+    <div class="vh-flex-grid-thirds">
+      <div class="vh-col-1">
+        <a class="v-text" href="#ourstory">our story</a>
+      </div>
+      <div class="vh-half-wd vh-col-2">
+        
+      </div>
+      <div class="vh-col-3">
+        <hr class="line-fs">
+        <p class="unexpected right">unexpected<br/><span class="vh-pairing">pairings</span></p> 
+      </div>
+      <div class="vh-col-4">
+        <p class="v-text right left-vertical">contact</p>
+      </div>
+     </div> 
+   </div>
+</div>
+  <div class="vh-shop-div">
+    <p class="vh-shop-text">
+      <a class="letter-spacing shop-now" href="#shopnow">shop now</a>
+    </p>
+  </div>
+  
+  
+  
+  
+  
+<!-- start of turtle container -->
+{% section 'turtle-section' %}
+
+<!-- start of uji hoji display 5 flavors section -->
+<div class="container-sixth">
+  {% section 'second-header' %}
+  <div class="sixth-flex">
+    <a href="#default-product" id="default-prod-btn">
+      <div class="six-one">
+        <img src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/square_background_with_teapot.png?1671" />
+        <p class="uji-p">Uji, Hoji</p>
+      </div>
+    </a>
+    <a href="#second-product" id="second-prod-btn">
+      <div class="six-two">
+        <img src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/mango_artboard-1.png?1671" />
+        <p class="uji-p">Uji, Hoji</p>
+      </div>
+    </a>
+    <a href="#third-product" id="third-prod-btn">
+      <div class="six-three">
+        <img src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/mango_artboard.png?1671" />
+        <p class="uji-p">Uji, Hoji</p>
+      </div>
+    </a>
+    <a href="#fourth-product" id="fourth-prod-btn">
+      <div class="six-four">
+        <img src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/mango_artboard_copy.png?1671" />
+        <p class="uji-p">Uji, Hoji</p>
+      </div>
+    </a>
+    <a href="#fifth-product" id="fifth-prod-btn">
+      <div class="six-five">
+        <img src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/mango_artboard_copy_2.png?1671" />
+        <p class="uji-p">Uji, Hoji</p>
+      </div>
+    </a>
+  </div>
+ <div class="uji">
+   <h2 class="uji-text">Uji, Hoji</h2>
+ </div>
+</div>
+
+
+<!-- start of all products section -->
+<a name="second-product"></a>
+<a name="default-product"></a>
+<a name="third-product"></a>
+<a name="fourth-product"></a>
+<a name="fifth-product"></a>
+<div class="default-prod-div" id="default-prod-div">
+  {% section 'default-product' %}
+</div>
+<div class="not-shown" id="second-prod-div">
+  {% section 'second-prod' %}
+</div>
+<div class="not-shown" id="third-prod-div">
+  {% section 'third-prod' %}
+</div>
+<div class="not-shown" id="fourth-prod-div">
+  {% section 'fourth-prod' %}
+</div>
+<div class="not-shown" id="fifth-prod-div">
+  {% section 'fifth-prod' %}
+</div>
+<div class="container-eight">
+  <div class="container-eight-child">
+    <img class="thee-logo" src="https://cdn.shopify.com/s/files/1/0103/8814/4224/files/thee_website_template_path.png?1804" />
+  </div>
+  <div class="eight-two">
+      <div class="instructions">
+        <p class="text-color">1.For best taste, flush machine before us.</p>
+        <p class="text-color">2.Insert a THEE Capsule into the machine.</p>
+        <p class="text-color">3.Close lever firmly and place a cup under the outlet.</p>
+        <p class="text-color">4.Press the 40ml button to start and brew till it stops automatically.</p>
+        <p class="text-color">5.With capsule still in the machine, wait 30 seconds to <br/><br/> pre-infuse tea leaves.</p>
+        <p class="text-color">6.Press 110ml button to continue brew till it stops automatically.</p>
+        <p class="text-color">7.Remove the cup and enjoy!</p>    
+      </div>  
+  </div>
+  <div class="eight-three">
+    <hr class="eight-small-line">
+    <div class="grn-txt-bkg"><p class="eight-rotate">brewing techniques</p></div>
+    <div class="rectangular"></div>
   </div>
 </div>
+  <a name="contact-section"></a>
+<div class="container-nine contact">
+  <div class="container-nine-child">
+    <div class="col-nine-one">
+  </div>
+    <div class="col-nine-two">
+      <h1 class="center text-color">Contact Us</h1>
+      {% section 'contact-home' %}
+    </div>
+    <div class="col-nine-three">
+  </div>
+  </div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script>
+    var imgOne = $('.stem-one')
+    var imgTwo = $('.stem-two')
+    var imgThree = $('.stem-three')
+    var imgFour = $('.stem-four')
+  
+    $('body').addClass('is-locked')
+//     $('.main-wrapper').hide()
+    $(document).ready(function(){
+      $(this).scrollTop(0);
+    });
+  imgTwo.fadeOut()
+    imgThree.fadeOut();
+    imgFour.fadeOut();
+  
+    setTimeout(function(){
+    imgOne.fadeOut(1500).css('z-index', 13)
+        imgTwo.fadeIn(1700).css('z-index', 14)
+    }, 1000)
+    
+    setTimeout(function(){
+        imgOne.css('z-index', 12)
+    imgTwo.fadeOut(3600).css('z-index', 13)
+        imgThree.fadeIn(1700).css('z-index', 14)
+    }, 3400)
+    
+    setTimeout(function(){
+        imgOne.css('z-index', 11)
+        imgTwo.css('z-index', 12)
+    imgThree.fadeOut(5600).css('z-index', 13)
+        imgFour.fadeIn(5800).css('z-index', 14)
+    }, 5300)
+    
+    setTimeout(function(){
+        $('.loading-screen').fadeOut(1000).addClass('is-hidden')
+        $('.main-wrapper').removeClass('main-wrapper')
+        $('body').removeClass('is-locked')
+    }, 6500)
+    
+    $('a[href^="#"]').click(function () {
+    $('html, body').animate({
+        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 500);
+
+    return false;
+      
+});
+  $("#default-prod-btn").click (
+    function() {
+      $("#default-prod-div").removeClass('not-shown');
+      $("#second-prod-div").addClass('not-shown');
+      $("#third-prod-div").addClass('not-shown');
+      $("#fourth-prod-div").addClass('not-shown');
+      $("#fifth-prod-div").addClass('not-shown');
+    }
+  );
+  $("#second-prod-btn").click (
+    function() {
+      $("#default-prod-div").addClass('not-shown')
+      $("#second-prod-div").removeClass('not-shown');
+      $("#third-prod-div").addClass('not-shown');
+      $("#fourth-prod-div").addClass('not-shown');
+      $("#fifth-prod-div").addClass('not-shown');
+    }
+  );
+  $("#third-prod-btn").click (
+    function() {
+      $("#default-prod-div").addClass('not-shown')
+      $("#second-prod-div").addClass('not-shown');
+      $("#third-prod-div").removeClass('not-shown');
+      $("#fourth-prod-div").addClass('not-shown');
+      $("#fifth-prod-div").addClass('not-shown');
+    }
+  );
+  $("#fourth-prod-btn").click (
+    function() {
+      $("#default-prod-div").addClass('not-shown')
+      $("#second-prod-div").addClass('not-shown');
+      $("#third-prod-div").addClass('not-shown');
+      $("#fourth-prod-div").removeClass('not-shown');
+      $("#fifth-prod-div").addClass('not-shown');
+    }
+  );
+  $("#fifth-prod-btn").click (
+    function() {
+      $("#default-prod-div").addClass('not-shown')
+      $("#second-prod-div").addClass('not-shown');
+      $("#third-prod-div").addClass('not-shown');
+      $("#fourth-prod-div").addClass('not-shown');
+      $("#fifth-prod-div").removeClass('not-shown');
+    }
+  );
+  
+  function scrollThere(targetElement, speed) {
+  // initiate an animation to a certain page element:
+  $('html, body').stop().animate(
+    { scrollTop: targetElement.offset().top }, // move window so target element is at top of window
+    speed, // speed in milliseconds
+    'swing' // easing
+  ); // end animate
+} // end scrollThere function definition
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.our-story-text {
+margin-top: 15vh;  
+}
+
+// mobile view 
+@media only screen and (max-width: 768px) {
+ .desktop-view {
+ 	display: none !important;
+ }
+ .mobile-view {
+  display: block; 
+ }
+}
+
+.mobile-to-shop {
+ height: 100vh; 
+}
